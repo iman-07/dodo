@@ -7,7 +7,6 @@
 .container {
   width: 1200px;
   margin: 0 auto;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -22,4 +21,9 @@ a {
 a:hover {
   text-decoration: underline;
   text-underline-offset: 10px;
+}
+
+.btn:hover{
+  background: red!important;
+  color: #fff;
 }

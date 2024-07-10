@@ -1,9 +1,7 @@
 import React from 'react'
 import Header from './Header'
 
-type TypeTabs = {
-  name: string
-}
+
 
 export interface ITabs {
   name: string

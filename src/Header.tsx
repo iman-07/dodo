@@ -3,6 +3,8 @@
 import { FC, useState } from 'react'
 import { ITabs } from './App'
 import PizzaContent from './PizzaContent'
+import DrinksContent from './DrinksContent'
+import DesertsContent from './DesertsContent'
 
 interface IHeaderProps {
     tabs:ITabs []
@@ -33,8 +35,8 @@ const Header: FC<IHeaderProps> = (props) => {
             <br />
             <div>
                 {content == "Pizza" && <PizzaContent/>}
-                {content == "Drinks" && <h2>Drinks content</h2>}
-                {content == "Deserts" && <h2>Desert Contents</h2>}
+                {content == "Drinks" && <DrinksContent/>}
+                {content == "Deserts" && <DesertsContent/>}
             </div>
         </div>
     )
